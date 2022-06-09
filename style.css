@@ -1,0 +1,294 @@
+body{
+    background-color: #121114
+}
+
+.container{
+    max-width: 1900px;
+}
+
+
+.menu{
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 1px 1px 30px rgba(245, 245, 245, 0.48);
+}
+
+.menu_right img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 100px;
+}
+
+
+.menu_left h1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 20px;
+    padding: 10px;
+    border: 20px;
+    color:#fff;
+    text-shadow: 4px 4px 40px rgb(72, 71, 71);
+}
+
+
+.btn{
+    padding: 10px;
+    border: 20px;
+    margin-top: 30px ;
+    text-decoration: none;
+    color: #fff;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn a{
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.566) 0%, rgb(208, 208, 208) 100%);
+    color: rgb(66, 65, 65);
+    padding: 9px 42px;
+    border-radius: 4px;
+    
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+    text-align: center;
+}
+
+
+.btn a:hover{
+    color: #121114;
+    transform: scale(1.01);
+    box-shadow: 3px 3px 20px rgb(255, 255, 255);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.container2{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.history_band{
+    display: block;
+    margin: 50px;
+}
+
+.history_band h2{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-shadow: 3px 3px 20px rgba(255, 255, 255, 0.315);
+    margin-bottom: 20px;
+}
+
+.history_band p{
+    margin: auto;
+    color: #A3A2A3;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.history_band span, a{
+    margin-bottom: 40px;
+    color: #A3A2A3;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+}
+
+
+
+.songs h2{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-shadow: 3px 3px 20px rgba(255, 255, 255, 0.315);
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.songs img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 375px;
+    height: 360px;
+    margin: auto;
+}
+.songs h3{
+    display: flex;
+    justify-content: flex-start;
+    color:rgba(255, 255, 255, 0.808);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    text-shadow: 3px 3px 20px rgba(255, 255, 255, 0.315);
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.songs p{
+    margin: auto;
+    color: #A3A2A3;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.songs iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.all_songs iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.lista_wiped{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+
+.galery_geral h2{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-shadow: 3px 3px 20px rgba(255, 255, 255, 0.315);
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.galery_geral p{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.galery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galery img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    transition: all 0.6s;
+}
+
+.galery img:hover{
+    height: 200px;
+    width: 200px;
+    background-image: url("./img/kissclipart-neighbourhood-logo-phone-case-iphone-6-plus-6s-p-b62dbd5e8d9a2604.png");
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#image1{
+    background-image: url("./img/kissclipart-neighbourhood-logo-phone-case-iphone-6-plus-6s-p-b62dbd5e8d9a2604.png");
+}
+
+#image1:hover{
+    background-image: url("./img/1.jpg");
+}
+
+#image2{
+    background-image: url("./img/kissclipart-neighbourhood-logo-phone-case-iphone-6-plus-6s-p-b62dbd5e8d9a2604.png");
+}
+
+#image2:hover{
+    background-image: url("./img/2.jpg");
+}
+
+#image3{
+    background-image: url("./img/kissclipart-neighbourhood-logo-phone-case-iphone-6-plus-6s-p-b62dbd5e8d9a2604.png");
+}
+
+#image3:hover{
+    background-image: url("./img/3.jpg");
+}
+
+#image4{
+    background-image: url("./img/kissclipart-neighbourhood-logo-phone-case-iphone-6-plus-6s-p-b62dbd5e8d9a2604.png");
+}
+
+#image4:hover{
+    background-image: url("./img/4.jpg");
+}
+
+#image5{
+    background-image: url("./img/kissclipart-neighbourhood-logo-phone-case-iphone-6-plus-6s-p-b62dbd5e8d9a2604.png");
+}
+
+#image5:hover{
+    background-image: url("./img/5.jpg");
+}
+
+#image6{
+    background-image: url("./img/kissclipart-neighbourhood-logo-phone-case-iphone-6-plus-6s-p-b62dbd5e8d9a2604.png");
+}
+
+#image6:hover{
+    background-image: url("./img/6.jpg");
+}
+
+#image7{
+    background-image: url("./img/kissclipart-neighbourhood-logo-phone-case-iphone-6-plus-6s-p-b62dbd5e8d9a2604.png");
+}
+
+#image7:hover{
+    background-image: url("./img/7.jpg");
+}
+
+#image8{
+    background-image: url("./img/kissclipart-neighbourhood-logo-phone-case-iphone-6-plus-6s-p-b62dbd5e8d9a2604.png");
+}
+
+#image8:hover{
+    background-image: url("./img/8.jpg");
+}
+
+
+
