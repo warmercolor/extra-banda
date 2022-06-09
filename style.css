@@ -1,11 +1,10 @@
 body{
-    background-color: #121114
+    background-color: #121114;
 }
 
 .container{
     max-width: 1900px;
 }
-
 
 .menu{
     display:flex;
@@ -290,5 +289,36 @@ body{
     background-image: url("./img/8.jpg");
 }
 
+.area_mensagem {
+    display: flex;
+    padding: 0 100px;
+}
 
+.area_mensagem_top {
+    color: springgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 250px;
+    margin-top: 100px;
+}
 
+.area_direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.area_direita textarea {
+    resize: none;
+}
+
+.area_mensagem_bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
